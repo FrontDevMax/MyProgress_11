@@ -57,7 +57,20 @@ fun MainApp() {
             onValueChange = { sliderPosition = it }
         )
         Text(
-            text = "Сегодня не готовился"
+            text = updateText(sliderPosition.toInt())
         )
     }
+}
+
+fun updateText(sliderPosition: Int): String {
+    if(sliderPosition == 0) {
+        return "Сегодня не готовился"
+    } else if(sliderPosition >= 1 && sliderPosition <= 3) {
+        return "Небольшая подготовка!"
+    } else if(sliderPosition >= 4 && sliderPosition <= 7) {
+        return "Хороший темп!"
+    } else if(sliderPosition >= 8 && sliderPosition <= 9) {
+        return "Почти сверхнорма!"
+    }
+    return "Невероятно! Сессия покорится!"
 }
