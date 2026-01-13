@@ -47,7 +47,7 @@ fun MainApp() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Подготовлено 0 из 10 зачётов/экзаменов",
+            text = "Подготовлено ${sliderPosition.toInt()} из 10 зачётов/экзаменов",
             textAlign = TextAlign.Center,
         )
         Slider(
