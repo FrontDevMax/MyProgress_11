@@ -24,8 +24,7 @@
   * Используется rememberSaveable для сохранения состояния
 
 ### Скриншоты
-<img src="photo_1_2026-01-13_20-32-22.jpg" height="300">
-<img src="photo_2_2026-01-13_20-32-22.jpg" height="300">
+<img src="photo_1_2026-01-13_20-32-22.jpg" height="400"><img src="photo_2_2026-01-13_20-32-22.jpg" height="300">
 <img src="photo_3_2026-01-13_20-32-22.jpg" height="300">
 <img src="photo_4_2026-01-13_20-32-22.jpg" height="300">
 <img src="photo_5_2026-01-13_20-32-22.jpg" height="300">
